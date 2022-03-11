@@ -7,6 +7,6 @@ public class MenuSceneSelection : MonoBehaviour
 {
     public void LoadTestScene()
     {
-        SceneManager.LoadScene("TestScene - Copy 1");
+        SceneManager.LoadScene("TestScene - Copy1");
     }
 }
