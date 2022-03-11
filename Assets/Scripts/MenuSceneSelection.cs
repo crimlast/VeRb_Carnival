@@ -5,8 +5,24 @@ using UnityEngine.SceneManagement;
 
 public class MenuSceneSelection : MonoBehaviour
 {
-    public void LoadTestScene()
+    public void LoadRingTossScene()
     {
-        SceneManager.LoadScene("TestScene - Copy1");
+        SceneManager.LoadScene("Ring toss");
+    }
+    public void LoadShootingGallaryScene()
+    {
+        SceneManager.LoadScene("Shooting gallary");
+    }
+    public void LoadBalloonPopScene()
+    {
+        SceneManager.LoadScene("Balloon pop");
+    }
+    public void LoadWhackAMoleScene()
+    {
+        SceneManager.LoadScene("Whack a mole");
+    }
+    public void LoadRandomScene()
+    {
+        SceneManager.LoadScene("Random");
     }
 }
