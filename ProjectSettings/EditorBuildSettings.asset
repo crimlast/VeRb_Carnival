@@ -11,6 +11,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Ring toss.unity
     guid: b3bc186f36704334fa15398298929a0f
+  - enabled: 1
+    path: Assets/Scenes/Balloon Pop.unity
+    guid: 764ecd5f6683d4346bdf435c47470fdd
+  - enabled: 1
+    path: Assets/Scenes/Random.unity
+    guid: 2c541f91ca453ae4d9abe13d1fd3d5b3
+  - enabled: 1
+    path: Assets/Scenes/Shooting gallery.unity
+    guid: 60d68b069ef49a54b8638c8d5a00deff
+  - enabled: 1
+    path: Assets/Scenes/Whack a mole.unity
+    guid: 295a8f74471c2ea41bd4d6154d294a20
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}
