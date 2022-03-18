@@ -9,9 +9,9 @@ public class MenuSceneSelection : MonoBehaviour
     {
         SceneManager.LoadScene("Ring toss");
     }
-    public void LoadShootingGallaryScene()
+    public void LoadShootingGalleryScene()
     {
-        SceneManager.LoadScene("Shooting gallary");
+        SceneManager.LoadScene("Shooting gallery");
     }
     public void LoadBalloonPopScene()
     {
