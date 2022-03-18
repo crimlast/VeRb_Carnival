@@ -487,7 +487,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100004, guid: 939e176c84eb9af4d8aff0d14144f490, type: 3}
       propertyPath: m_Name
-      value: MedievalTentBig (1)
+      value: MedievalTentBigShootingGallery
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 939e176c84eb9af4d8aff0d14144f490, type: 3}
       propertyPath: m_RootOrder
@@ -594,10 +594,16 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1903445553}
         m_TargetAssemblyTypeName: MenuSceneSelection, Assembly-CSharp
-        m_MethodName: LoadTestScene
+        m_MethodName: LoadShootingGalleryScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -607,12 +613,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  m_SelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Activated:
-    m_PersistentCalls:
-      m_Calls: []
   m_Deactivated:
     m_PersistentCalls:
       m_Calls: []
@@ -1241,7 +1241,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100004, guid: 939e176c84eb9af4d8aff0d14144f490, type: 3}
       propertyPath: m_Name
-      value: MedievalTentBig (4)
+      value: MedievalTentBigBalloonPop
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 939e176c84eb9af4d8aff0d14144f490, type: 3}
       propertyPath: m_RootOrder
@@ -1348,10 +1348,16 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1903445553}
         m_TargetAssemblyTypeName: MenuSceneSelection, Assembly-CSharp
-        m_MethodName: LoadTestScene
+        m_MethodName: LoadBalloonPopScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1361,12 +1367,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  m_SelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Activated:
-    m_PersistentCalls:
-      m_Calls: []
   m_Deactivated:
     m_PersistentCalls:
       m_Calls: []
@@ -1468,7 +1468,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100004, guid: 939e176c84eb9af4d8aff0d14144f490, type: 3}
       propertyPath: m_Name
-      value: MedievalTentBig
+      value: MedievalTentBigRingToss
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 939e176c84eb9af4d8aff0d14144f490, type: 3}
       propertyPath: m_RootOrder
@@ -1575,10 +1575,16 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1903445553}
         m_TargetAssemblyTypeName: MenuSceneSelection, Assembly-CSharp
-        m_MethodName: LoadTestScene
+        m_MethodName: LoadRingTossScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1588,12 +1594,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  m_SelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Activated:
-    m_PersistentCalls:
-      m_Calls: []
   m_Deactivated:
     m_PersistentCalls:
       m_Calls: []
@@ -2391,7 +2391,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100004, guid: 939e176c84eb9af4d8aff0d14144f490, type: 3}
       propertyPath: m_Name
-      value: MedievalTentBig (2)
+      value: MedievalTentBigWhackAMole
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 939e176c84eb9af4d8aff0d14144f490, type: 3}
       propertyPath: m_RootOrder
@@ -2498,10 +2498,16 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1903445553}
         m_TargetAssemblyTypeName: MenuSceneSelection, Assembly-CSharp
-        m_MethodName: LoadTestScene
+        m_MethodName: LoadWhackAMoleScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2511,12 +2517,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  m_SelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Activated:
-    m_PersistentCalls:
-      m_Calls: []
   m_Deactivated:
     m_PersistentCalls:
       m_Calls: []
@@ -2877,7 +2877,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100004, guid: 939e176c84eb9af4d8aff0d14144f490, type: 3}
       propertyPath: m_Name
-      value: MedievalTentBig (3)
+      value: MedievalTentBigRandom
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 939e176c84eb9af4d8aff0d14144f490, type: 3}
       propertyPath: m_RootOrder
@@ -2984,10 +2984,16 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1903445553}
         m_TargetAssemblyTypeName: MenuSceneSelection, Assembly-CSharp
-        m_MethodName: LoadTestScene
+        m_MethodName: LoadRandomScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2997,12 +3003,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  m_SelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Activated:
-    m_PersistentCalls:
-      m_Calls: []
   m_Deactivated:
     m_PersistentCalls:
       m_Calls: []
