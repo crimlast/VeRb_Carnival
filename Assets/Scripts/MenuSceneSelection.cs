@@ -25,4 +25,8 @@ public class MenuSceneSelection : MonoBehaviour
     {
         SceneManager.LoadScene("Random");
     }
+    public void LoadMainScene()
+    {
+        SceneManager.LoadScene("TheMainScene");
+    }
 }
