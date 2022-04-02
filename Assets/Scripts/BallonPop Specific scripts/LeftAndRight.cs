@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BackandForthMove : MonoBehaviour
+public class LeftAndRight : MonoBehaviour
 {
     float MoveSpeed;
     Vector3 pointA;
@@ -11,7 +11,7 @@ public class BackandForthMove : MonoBehaviour
     {
         MoveSpeed = Random.Range(0.2f, 1.5f);
         pointA = transform.position;
-        pointB = new Vector3(transform.position.x + 2, transform.position.y, transform.position.z);
+        pointB = new Vector3(transform.position.x + 4, transform.position.y + 1, transform.position.z);
     }
 
     // Update is called once per frame
