@@ -646,6 +646,7 @@ GameObject:
   m_Component:
   - component: {fileID: 105569660}
   - component: {fileID: 105569661}
+  - component: {fileID: 105569662}
   m_Layer: 0
   m_Name: LightSource
   m_TagString: Untagged
@@ -729,6 +730,21 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &105569662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105569659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81dbf6b9bc234ea4fa51f39b6cc2496e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorFrom: {r: 1, g: 1, b: 1, a: 1}
+  colorTo: {r: 0.65723264, g: 0.9020665, b: 1, a: 1}
+  speedMultiplier: 0.4
 --- !u!1 &141106469
 GameObject:
   m_ObjectHideFlags: 0
@@ -1817,6 +1833,7 @@ GameObject:
   m_Component:
   - component: {fileID: 384107942}
   - component: {fileID: 384107943}
+  - component: {fileID: 384107944}
   m_Layer: 0
   m_Name: LightSource
   m_TagString: Untagged
@@ -1900,6 +1917,21 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &384107944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 384107941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81dbf6b9bc234ea4fa51f39b6cc2496e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorFrom: {r: 1, g: 1, b: 1, a: 1}
+  colorTo: {r: 0.65723264, g: 0.9020665, b: 1, a: 1}
+  speedMultiplier: 0.4
 --- !u!4 &404468529 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7042718945366597155, guid: 407d15ceaa0e7c541b9204d89de0216f,
@@ -3033,6 +3065,7 @@ GameObject:
   m_Component:
   - component: {fileID: 860984211}
   - component: {fileID: 860984212}
+  - component: {fileID: 860984213}
   m_Layer: 0
   m_Name: LightSource
   m_TagString: Untagged
@@ -3116,6 +3149,21 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &860984213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860984210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81dbf6b9bc234ea4fa51f39b6cc2496e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorFrom: {r: 1, g: 1, b: 1, a: 1}
+  colorTo: {r: 0.65723264, g: 0.9020665, b: 1, a: 1}
+  speedMultiplier: 0.4
 --- !u!1001 &893933627
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3209,6 +3257,7 @@ GameObject:
   m_Component:
   - component: {fileID: 918215173}
   - component: {fileID: 918215172}
+  - component: {fileID: 918215174}
   m_Layer: 0
   m_Name: Point Light
   m_TagString: Untagged
@@ -3292,6 +3341,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &918215174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918215171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81dbf6b9bc234ea4fa51f39b6cc2496e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorFrom: {r: 0, g: 1, b: 0.37000823, a: 0}
+  colorTo: {r: 0, g: 0.6739125, b: 1, a: 0}
+  speedMultiplier: 0.6
 --- !u!1 &991974150
 GameObject:
   m_ObjectHideFlags: 0
@@ -3704,6 +3768,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1055625215}
   - component: {fileID: 1055625216}
+  - component: {fileID: 1055625217}
   m_Layer: 0
   m_Name: LightSource
   m_TagString: Untagged
@@ -3787,6 +3852,21 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1055625217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055625214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81dbf6b9bc234ea4fa51f39b6cc2496e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorFrom: {r: 1, g: 1, b: 1, a: 1}
+  colorTo: {r: 0.65723264, g: 0.9020665, b: 1, a: 1}
+  speedMultiplier: 0.4
 --- !u!1 &1061897634
 GameObject:
   m_ObjectHideFlags: 0
@@ -3797,6 +3877,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1061897635}
   - component: {fileID: 1061897636}
+  - component: {fileID: 1061897637}
   m_Layer: 0
   m_Name: LightSource
   m_TagString: Untagged
@@ -3880,6 +3961,21 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1061897637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061897634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81dbf6b9bc234ea4fa51f39b6cc2496e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorFrom: {r: 1, g: 1, b: 1, a: 1}
+  colorTo: {r: 0.65723264, g: 0.9020665, b: 1, a: 1}
+  speedMultiplier: 0.4
 --- !u!4 &1079980335 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7042718945366597155, guid: 407d15ceaa0e7c541b9204d89de0216f,
@@ -4871,6 +4967,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1396827131}
   - component: {fileID: 1396827132}
+  - component: {fileID: 1396827133}
   m_Layer: 0
   m_Name: LightSource
   m_TagString: Untagged
@@ -4954,6 +5051,21 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1396827133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396827130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81dbf6b9bc234ea4fa51f39b6cc2496e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorFrom: {r: 1, g: 1, b: 1, a: 1}
+  colorTo: {r: 0.65723264, g: 0.9020665, b: 1, a: 1}
+  speedMultiplier: 0.4
 --- !u!1001 &1428082768
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6008,6 +6120,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1707039598}
   - component: {fileID: 1707039599}
+  - component: {fileID: 1707039600}
   m_Layer: 0
   m_Name: LightSource
   m_TagString: Untagged
@@ -6091,6 +6204,21 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1707039600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1707039597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81dbf6b9bc234ea4fa51f39b6cc2496e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorFrom: {r: 1, g: 1, b: 1, a: 1}
+  colorTo: {r: 0.65723264, g: 0.9020665, b: 1, a: 1}
+  speedMultiplier: 0.4
 --- !u!1001 &1807668076
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6190,6 +6318,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1899501042}
   - component: {fileID: 1899501043}
+  - component: {fileID: 1899501044}
   m_Layer: 0
   m_Name: LightSource
   m_TagString: Untagged
@@ -6273,6 +6402,21 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1899501044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899501041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81dbf6b9bc234ea4fa51f39b6cc2496e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorFrom: {r: 1, g: 1, b: 1, a: 1}
+  colorTo: {r: 0.65723264, g: 0.9020665, b: 1, a: 1}
+  speedMultiplier: 0.4
 --- !u!1 &1904486960
 GameObject:
   m_ObjectHideFlags: 0
