@@ -4,33 +4,37 @@ using UnityEngine;
 
 public class Respawner : MonoBehaviour
 {
+    private Vector3 startPosition;
+
     public GameObject ring;
-    
+
     void start()
     {
-        
+        startPosition = new Vector3(4.67f, 0.72f, -1.36f);
     }
 
     void OnCollisionEnter(Collision col)
     {
-        if(col.gameObject.name == "Board")
+        if (col.gameObject.name == "Board")
         {
             spawnRing();
         }
-        else if(col.gameObject.name == "Terrain")
+        else if (col.gameObject.name == "Terrain")
         {
             spawnRing();
         }
-        else 
+        else
         {
-            
+
         }
     }
 
     private void spawnRing()
     {
-        GameObject a = Instantiate(ring) as GameObject;
-        a.transform.position = new Vector3(4.65f, 0.7f, -1.228f);
+        //GameObject a = Instantiate(ring) as GameObject;
+        //a.transform.position = new Vector3(4.65f, 0.7f, -1.228f);
+        Instantiate(ring, startPosition, Quaternion.identity);
+        Destroy(gameObject);
     }
 
 }
