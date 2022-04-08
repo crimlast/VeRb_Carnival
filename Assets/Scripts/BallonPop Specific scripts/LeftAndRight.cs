@@ -7,11 +7,14 @@ public class LeftAndRight : MonoBehaviour
     float MoveSpeed;
     Vector3 pointA;
     Vector3 pointB;
+    int x, y;
     void Start()
     {
-        MoveSpeed = Random.Range(0.2f, 1.5f);
+        MoveSpeed = Random.Range(-0.8f, 1.5f);
+        x = (int)Random.Range(-3, 3f);
+        y = x = (int)Random.Range(-2, 4f);
         pointA = transform.position;
-        pointB = new Vector3(transform.position.x + 4, transform.position.y + 1, transform.position.z);
+        pointB = new Vector3(transform.position.x + x, transform.position.y + y, transform.position.z);
     }
 
     // Update is called once per frame
