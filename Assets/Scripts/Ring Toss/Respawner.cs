@@ -8,9 +8,10 @@ public class Respawner : MonoBehaviour
 
     public GameObject ring;
 
-    void start()
+    void Start()
     {
-        startPosition = new Vector3(4.67f, 0.72f, -1.36f);
+        startPosition = transform.position;
+        Debug.Log(startPosition);
     }
 
     void OnCollisionEnter(Collision col)
@@ -32,9 +33,9 @@ public class Respawner : MonoBehaviour
     private void spawnRing()
     {
         //GameObject a = Instantiate(ring) as GameObject;
-        //a.transform.position = new Vector3(4.65f, 0.7f, -1.228f);
-        Instantiate(ring, startPosition, Quaternion.identity);
-        Destroy(gameObject);
+        transform.position = startPosition;
+        //Instantiate(ring, startPosition, Quaternion.identity);
+        //Destroy(gameObject);
     }
 
 }
