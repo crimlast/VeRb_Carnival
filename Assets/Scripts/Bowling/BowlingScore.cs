@@ -6,12 +6,23 @@ public class BowlingScore : MonoBehaviour
 {
     private int score;
 
+    public TMPro.TextMeshPro scoreText;
     public int pointsPerPin;
 
     public void AddPoints()
     {
         score += pointsPerPin;
-        Debug.Log("Points added: " + pointsPerPin + " Total Score: " + score);
-        // TODO: Update UI to reflect score
+        UpdateScoreText();
+    }
+
+    public void ResetScore()
+    {
+        score = 0;
+        UpdateScoreText();
+    }
+
+    private void UpdateScoreText()
+    {
+        scoreText.text = score.ToString();
     }
 }
