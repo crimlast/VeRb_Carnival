@@ -19,7 +19,7 @@ public class Pin : MonoBehaviour
         layerMask = LayerMask.GetMask("BowlingLane");
         distToGround = gameObject.GetComponent<Collider>().bounds.extents.y;
 
-        numPins++;
+        AddPin();
     }
 
     private void Update()
@@ -29,6 +29,12 @@ public class Pin : MonoBehaviour
             KnockDownPin();
             Debug.Log(gameObject.name + " Fell");
         }
+    }
+
+    private void AddPin()
+    {
+        numPins++;
+        ResetGame.AddPin(gameObject);
     }
 
     private void KnockDownPin()
