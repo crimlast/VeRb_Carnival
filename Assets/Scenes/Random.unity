@@ -2244,6 +2244,8 @@ MonoBehaviour:
   pinParent: {fileID: 155110680}
   pinPrefab: {fileID: 7707650442226631833, guid: 407d15ceaa0e7c541b9204d89de0216f,
     type: 3}
+  ballPrefab: {fileID: 3757610123798580735, guid: f08ef3a604fe8f54f974c6d7bd6dbbb2,
+    type: 3}
 --- !u!1001 &502891303
 PrefabInstance:
   m_ObjectHideFlags: 0
