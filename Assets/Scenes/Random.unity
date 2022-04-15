@@ -7567,7 +7567,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: cdc8beb7e7bff794c98b92e3b2a28f45, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 9113a8a90b5a5ca42a7d9af05d6cf620, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -7901,16 +7901,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -1623328906142711340, guid: f08ef3a604fe8f54f974c6d7bd6dbbb2,
-        type: 3}
-      propertyPath: m_ThrowVelocityScale
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: -1623328906142711340, guid: f08ef3a604fe8f54f974c6d7bd6dbbb2,
-        type: 3}
-      propertyPath: m_ThrowAngularVelocityScale
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 3757610123798580735, guid: f08ef3a604fe8f54f974c6d7bd6dbbb2,
         type: 3}
       propertyPath: m_Name
@@ -7970,11 +7960,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8846100075198853577, guid: f08ef3a604fe8f54f974c6d7bd6dbbb2,
-        type: 3}
-      propertyPath: m_Mass
-      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f08ef3a604fe8f54f974c6d7bd6dbbb2, type: 3}
