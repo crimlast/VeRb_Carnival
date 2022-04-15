@@ -11,6 +11,6 @@ public class BowlingBall : MonoBehaviour
 
     private void SetBall()
     {
-        ResetGame.SetBall(gameObject);
+        ResetGame.SetBall(gameObject, transform.position);
     }
 }

@@ -33,9 +33,10 @@ public class ResetGame : MonoBehaviour
         pinPositions.Add(pinToAdd.transform.position);
     }
 
-    public static void SetBall(GameObject ballToSet)
+    public static void SetBall(GameObject ballToSet, Vector3 ballPos)
     {
         ballObject = ballToSet;
+        ballPosition = ballPos;
     }
 
     // Effectively reset the scene so that the user can bowl again
@@ -49,19 +50,22 @@ public class ResetGame : MonoBehaviour
     // Reset pins to how they were initially placed at the beginning of the scene
     private void ResetPins()
     {
-        // List to hold newly created pins
-        List<GameObject> newPinList = new List<GameObject>();
+        GameObject[] pinObjectsToDelete = new GameObject[pinObjects.Count];
+        Vector3[] pinPositionsToDelete = new Vector3[pinPositions.Count];
 
-        for (int i = 0; i < pinPositions.Count; i++)
+        pinObjects.CopyTo(pinObjectsToDelete);
+        pinPositions.CopyTo(pinPositionsToDelete);
+
+        pinObjects.Clear();
+        pinPositions.Clear();
+
+        for (int i = 0; i < pinPositionsToDelete.Length; i++)
         {
             // Destroy the current pin
-            Destroy(pinObjects[i]);
+            Destroy(pinObjectsToDelete[i]);
             // Create a new pin with the correct starting position and rotation, and add it to the new list
-            newPinList.Add(Instantiate(pinPrefab, pinPositions[i], Quaternion.Euler(0, 180, 0), pinParent));
+            Instantiate(pinPrefab, pinPositionsToDelete[i], Quaternion.Euler(0, 180, 0), pinParent);
         }
-
-        // Update the current pinObjects list with the new pins
-        //pinObjects = newPinList;
     }
 
     // Reset bowling ball to how it was initially placed at the beginning of the scene
