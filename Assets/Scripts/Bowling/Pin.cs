@@ -27,7 +27,7 @@ public class Pin : MonoBehaviour
         if (!knockedDown && !Physics.Raycast(transform.position, -transform.up, distToGround + 0.1f, layerMask))
         {
             KnockDownPin();
-            Debug.Log(gameObject.name + " Fell");
+            //Debug.Log(gameObject.name + " Fell");
         }
     }
 
@@ -44,7 +44,7 @@ public class Pin : MonoBehaviour
 
         if (totalPinsDown >= numPins)
         {
-            Debug.Log("Won game");
+            //Debug.Log("Won game");
         }
     }
 }

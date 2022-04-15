@@ -41,6 +41,7 @@ public class ResetGame : MonoBehaviour
     // Effectively reset the scene so that the user can bowl again
     public void ResetScene()
     {
+        Debug.Log("Reset scene called");
         ResetPins();
         ResetBall();
     }
@@ -60,7 +61,7 @@ public class ResetGame : MonoBehaviour
         }
 
         // Update the current pinObjects list with the new pins
-        pinObjects = newPinList;
+        //pinObjects = newPinList;
     }
 
     // Reset bowling ball to how it was initially placed at the beginning of the scene
