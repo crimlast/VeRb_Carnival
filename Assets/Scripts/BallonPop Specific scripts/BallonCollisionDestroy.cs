@@ -8,10 +8,13 @@ public class BallonCollisionDestroy : MonoBehaviour
     private static bool isTrackerSet = false;
     public GameObject molePrefab;
     private Vector3 spawnPos;
+    private Vector3 ballOrigin;
+    public GameObject ball;
 
     private void Awake()
     {
         // Initialize score tracker reference if needed
+        ballOrigin = transform.position;
 
     }
 
@@ -30,7 +33,13 @@ public class BallonCollisionDestroy : MonoBehaviour
             //Destroys the falling mole after 3 seconds.
             Destroy(gameObject, 3);
         }
-        
+        if (collision.gameObject.tag == "Ground")
+        {
+            //Creates Destroy itself after seconds hitting the ground
+            Instantiate(ball, ballOrigin, Quaternion.identity);
+            Destroy(gameObject);
+        }
+
     }
 
 }
