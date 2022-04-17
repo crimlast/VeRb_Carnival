@@ -4,20 +4,21 @@ using UnityEngine;
 
 public class StartGameBP : MonoBehaviour
 {
-    private GameObject balloonSpawn;
-    private GameObject movement;
-    private GameObject sMenu;
+    public GameObject spawn;
+    public GameObject movement;
+    public GameObject sMenu;
+
     // Start is called before the first frame update
     public void Start()
     {
-        balloonSpawn = GameObject.Find("Balloons");
-        movement = GameObject.Find("Locomotion System");
-        sMenu = GameObject.Find("Start Menu");
+    //    balloonSpawn = GameObject.Find("Balloons");
+    //    movement = GameObject.Find("Locomotion System");
+    //    sMenu = GameObject.Find("Start Menu");
     }
 
-    public void StartBP()
+    void StartBP()
     {
-        balloonSpawn.SetActive(true);
+        spawn.SetActive(true);
         movement.SetActive(true);
         Destroy(sMenu);
     }
