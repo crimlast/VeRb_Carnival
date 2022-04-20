@@ -39,12 +39,19 @@ public class Pin : MonoBehaviour
 
     private void KnockDownPin()
     {
+        knockedDown = true;
         totalPinsDown++;
         scoreScript.AddPoints();
 
         if (totalPinsDown >= numPins)
         {
-            //Debug.Log("Won game");
+            Debug.Log("Strike");
         }
+    }
+
+    public static void ResetPinInfo()
+    {
+        totalPinsDown = 0;
+        numPins = 0;
     }
 }

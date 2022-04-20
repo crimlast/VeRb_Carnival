@@ -13,6 +13,8 @@ public class ResetGame : MonoBehaviour
     // Initial position of the bowling ball object
     private static Vector3 ballPosition;
 
+    private BowlingScore scoreScript;
+
     // The parent to attach newly created pins to
     public Transform pinParent;
     // The pin to instantiate
@@ -24,6 +26,11 @@ public class ResetGame : MonoBehaviour
     {
         pinObjects = new List<GameObject>();
         pinPositions = new List<Vector3>();
+    }
+
+    private void Start()
+    {
+        scoreScript = GameObject.FindGameObjectWithTag("GameController").GetComponent<BowlingScore>();
     }
 
     // Add pin to be tracked when resetting scene
@@ -42,7 +49,7 @@ public class ResetGame : MonoBehaviour
     // Effectively reset the scene so that the user can bowl again
     public void ResetScene()
     {
-        Debug.Log("Reset scene called");
+        scoreScript.ResetScore();
         ResetPins();
         ResetBall();
     }
@@ -50,6 +57,8 @@ public class ResetGame : MonoBehaviour
     // Reset pins to how they were initially placed at the beginning of the scene
     private void ResetPins()
     {
+        Pin.ResetPinInfo();
+
         GameObject[] pinObjectsToDelete = new GameObject[pinObjects.Count];
         Vector3[] pinPositionsToDelete = new Vector3[pinPositions.Count];
 
