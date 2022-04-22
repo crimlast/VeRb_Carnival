@@ -3,13 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class BalloonTimer : MonoBehaviour
+public class BPTimerEnd : MonoBehaviour
 {
     private float time;
     private bool isTimerRunning = true;
 
     public TMP_Text textObject;
     public float startTimeSeconds;
+
+    //things to end the game
+    public GameObject spawn;
+    public GameObject movement;
+    public GameObject player;
+    public GameObject playerUI;
+    public GameObject endScreen;
 
     private void Start()
     {
@@ -31,9 +38,12 @@ public class BalloonTimer : MonoBehaviour
                 // Keep timer at 0, and stop it
                 time = 0;
                 isTimerRunning = false;
+                endGame();
             }
         }
     }
+
+
 
     // Display time left on UI
     private void DisplayTime()
@@ -51,4 +61,18 @@ public class BalloonTimer : MonoBehaviour
             textObject.text = "No more time left";
         }
     }
+    private void endGame()
+    {
+    spawn.SetActive(false);
+    movement.SetActive(false);
+    playerUI.SetActive(false);
+    player.transform.position = new Vector3(0, 0.5f, -3f);
+    player.transform.rotation = Quaternion.Euler(new Vector3(0, 0, 0));
+    Instantiate(endScreen, new Vector3(0, 0.42f, 3.33f), Quaternion.identity);
+    }
 }
+
+
+
+
+
