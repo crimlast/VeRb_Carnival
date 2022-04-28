@@ -4578,7 +4578,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100004, guid: 939e176c84eb9af4d8aff0d14144f490, type: 3}
       propertyPath: m_Name
-      value: MedievalTentBigRandom
+      value: MedievalTentBigBowling
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 939e176c84eb9af4d8aff0d14144f490, type: 3}
       propertyPath: m_RootOrder
@@ -4718,7 +4718,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1903445553}
         m_TargetAssemblyTypeName: MenuSceneSelection, Assembly-CSharp
-        m_MethodName: LoadRandomScene
+        m_MethodName: LoadBowlingScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

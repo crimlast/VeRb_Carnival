@@ -21,9 +21,9 @@ public class MenuSceneSelection : MonoBehaviour
     {
         SceneManager.LoadScene("Whack a mole");
     }
-    public void LoadRandomScene()
+    public void LoadBowlingScene()
     {
-        SceneManager.LoadScene("Random");
+        SceneManager.LoadScene("Bowling");
     }
     public void LoadMainScene()
     {
