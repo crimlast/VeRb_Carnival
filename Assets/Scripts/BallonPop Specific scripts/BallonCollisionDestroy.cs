@@ -7,6 +7,7 @@ public class BallonCollisionDestroy : MonoBehaviour
     // Static score tracker reference to avoid creating reference for each bullet instance
     private static bool isTrackerSet = false;
     public GameObject molePrefab;
+    public BalloonPopScore score;
     private Vector3 spawnPos;
     private Vector3 ballOrigin;
     public GameObject ball;
@@ -15,6 +16,7 @@ public class BallonCollisionDestroy : MonoBehaviour
     {
         // Initialize score tracker reference if needed
         ballOrigin = transform.position;
+        score = GameObject.FindGameObjectWithTag("GameController").GetComponent<BalloonPopScore>();
 
     }
 
@@ -24,6 +26,7 @@ public class BallonCollisionDestroy : MonoBehaviour
         if(collision.gameObject.tag == "Target")
         {
             // Destroys "target when collided with this object
+            score.AddPoints();
             Destroy(collision.gameObject);
 
             //Spawns a screaming mole after target destruction on the same spot

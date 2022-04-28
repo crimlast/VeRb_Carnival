@@ -23,8 +23,8 @@ public class BalloonSpawner : MonoBehaviour
         if(limit <= numberToSpawn) {
             for(int i = 0; i < numberToSpawn; i++)
             {
-                x = Random.Range(-25, 25);
-                y = Random.Range(0, 25);
+                x = Random.Range(-20, 20);
+                y = Random.Range(0, 15);
                 z = Random.Range(0, 10);
                 randomPosition = new Vector3(transform.position.x + x, transform.position.y + y, transform.position.z + z);
                 Instantiate(objectToSpawn, randomPosition, Quaternion.identity);
