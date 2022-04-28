@@ -23,7 +23,7 @@ public class ResetGame : MonoBehaviour
     public GameObject ballPrefab;
     // Particle systems
     public ParticleSystem pinParticles;
-    // public ParticleSystem ballParticles;
+    public ParticleSystem ballParticles;
 
     private void Awake()
     {
@@ -59,6 +59,8 @@ public class ResetGame : MonoBehaviour
         // Particle effects
         pinParticles.Stop();
         pinParticles.Play();
+        ballParticles.Stop();
+        ballParticles.Play();
     }
 
     // Reset pins to how they were initially placed at the beginning of the scene
