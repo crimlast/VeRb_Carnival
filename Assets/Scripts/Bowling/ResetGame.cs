@@ -21,6 +21,9 @@ public class ResetGame : MonoBehaviour
     public GameObject pinPrefab;
     // The bowling ball to instantiate
     public GameObject ballPrefab;
+    // Particle systems
+    public ParticleSystem pinParticles;
+    // public ParticleSystem ballParticles;
 
     private void Awake()
     {
@@ -52,6 +55,10 @@ public class ResetGame : MonoBehaviour
         scoreScript.ResetScore();
         ResetPins();
         ResetBall();
+
+        // Particle effects
+        pinParticles.Stop();
+        pinParticles.Play();
     }
 
     // Reset pins to how they were initially placed at the beginning of the scene
