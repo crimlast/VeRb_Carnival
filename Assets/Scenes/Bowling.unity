@@ -18041,6 +18041,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -1623328906142711340, guid: f08ef3a604fe8f54f974c6d7bd6dbbb2,
+        type: 3}
+      propertyPath: m_ThrowVelocityScale
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -1623328906142711340, guid: f08ef3a604fe8f54f974c6d7bd6dbbb2,
+        type: 3}
+      propertyPath: m_ThrowAngularVelocityScale
+      value: 3.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3757610123798580735, guid: f08ef3a604fe8f54f974c6d7bd6dbbb2,
         type: 3}
       propertyPath: m_Name
